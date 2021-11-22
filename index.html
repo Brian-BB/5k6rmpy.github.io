@@ -10,9 +10,8 @@
     <script>
       $(document).ready(function () {
         $("#D1").hide();
-
         $("#B1").click(function () {
-          $("#D1").toggle(1000);
+          $("#D1").fadeIn("1000");
           return false;
         });
       });
@@ -26,10 +25,10 @@
       <h3>學號:407261594</h3>
       <h3>班級:資工四甲</h3>
     </div>
+    <button id="B1" style="height: 50px; width: 200px">click</button>
     <div id="D1">
       <img src="https://i.ibb.co/KD7FFYS/1.jpg" />
     </div>
-    <button id="B1">點擊</button>
   </body>
 </html>
 <style>
